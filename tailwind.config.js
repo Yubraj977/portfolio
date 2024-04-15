@@ -37,6 +37,10 @@ export default {
         
 
     },
+    backgroundImage: {
+      'owl': "url('/owl3.jpg')",
+     
+    }
     
     },
 
