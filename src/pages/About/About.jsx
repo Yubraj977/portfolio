@@ -8,10 +8,10 @@ function About() {
    
 
 
-    <div className='h-screen  bg-fifth '>
-      <div className=' h-full'>
-        <h1 className='text-4xl text-white flex justify-center  pt-10 font-allerta'>Know About me from commad Line</h1>
-       <Terminal />
+    <div className='h-screen  bg-first '>
+      <div className=' h-full flex p-20'>
+       {/* <div className='w-1/2'>left</div> */}
+       <Terminal/>
        </div>
     </div>
   )

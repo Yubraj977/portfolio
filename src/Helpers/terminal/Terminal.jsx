@@ -11,24 +11,24 @@ function Terminal() {
   return (
 
     <div /* on click, focus on input */
-      
+
       onClick={(e) => {
         inputRef.current.focus();
       }}
-      className="bg-owl text-white drop-shadow  w-full overflow-auto p-4 box-border h-full bg-center bg-opacity-0 bg-cover "
+      className="bg-[rgba(37,42,51,255)] dark:bg-[rgba(221,221,221,255)] text-black drop-shadow  w-full overflow-auto pl-14 box-border h-full bg-center bg-opacity-0 bg-cover "
     >
 
       {/*  output is displayed here styled white */}
-      <div className="whitespace-pre-line text-white drop-shadow-md  mb-4  mt-10">{output}</div>
+      <div className="whitespace-pre-line text-white dark:text-black drop-shadow-md  mb-4  mt-10 text-[1.2rem]">{output}</div>
       {/* default user is displayed here styled pink */}
-      <span className="flex text-white drop-shadow-md mb-50   ">
+      <span className="flex text-white  dark:text-black drop-shadow-md mb-50   ">
         $Yubraj/Home:&nbsp;
         {/* input box is displayed here styled white */}
         <input
           ref={inputRef}
 
-          className="border-none outline-none m-0 p-0
-				bg-transparent color-white w-full text-white drop-shadow  "
+          className="border-none outline-none m-0 p-0 
+				bg-transparent color-white w-full text-white dark:text-black drop-shadow  "
           value={input}
           onChange={(e) => setInput(e.target.value)} /* on change, update input */
           onKeyDown={(e) => {
