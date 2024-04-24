@@ -93,7 +93,7 @@ function Nav() {
     <div className='' ref={home} ><Home /></div>
     <div className='bg-first dark:bg-white' ref={about}><About /></div>
     <div className='' ref={projects}><Projects /></div>
-    <div className=' ' ref={testmimonials}><Testimonials /></div>
+    {/* <div className=' ' ref={testmimonials}><Testimonials /></div> */}
     <div className=' ' ref={services}><Services /></div>
 
 </div>

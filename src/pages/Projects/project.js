@@ -1,6 +1,15 @@
 const project=[
     {
         id:0,
+        image:'/project/moviesite.png',
+        title:"Movie Downloading Site",
+        technology:"React, Tailwind Css, mongodb, firebase",
+        link:"https://www.ymshub.xyz/",
+        category:"web",
+        description:"Movie Downoading Site Developed with mern"
+    },
+    {
+        id:1,
         image:'/project/todo.png',
         title:"To Do App",
         technology:"Html, Css, Javascript",
@@ -9,7 +18,7 @@ const project=[
         description:"this is the simple project created simply by using basic of web with the font poppins"
     },
     {
-        id:1,
+        id:2,
         image:'/project/jokes.png',
         title:"Random Jokes getter",
         technology:"Html, Css, Javascript, Fetch API",
@@ -18,7 +27,7 @@ const project=[
         description:"I created this one while Leaning about fetching apis and public free api is used here"
     },
     {
-        id:2,
+        id:3,
         image:'layer.svg',
         title:"three",
         technology:"Node react",
@@ -27,7 +36,7 @@ const project=[
         description:"the project of project hello hi random text jindabad tere leye "
     },
     {
-        id:3,
+        id:4,
         image:'layer.svg',
         title:"four",
         technology:"Node react",
