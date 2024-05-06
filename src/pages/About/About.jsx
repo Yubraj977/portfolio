@@ -8,9 +8,9 @@ function About() {
    
 
 
-    <div className='h-screen  bg-first '>
-      <div className=' h-full flex p-20'>
-       {/* <div className='w-1/2'>left</div> */}
+    <div className='lg:h-screen  bg-first '>
+      <div className=' h-full lg:flex p-20 hidden'>
+       
        <Terminal/>
        </div>
     </div>

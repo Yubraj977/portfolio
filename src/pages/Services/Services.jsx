@@ -23,7 +23,7 @@ function Services() {
   return (
 
     <div className=' flex flex-col justify-center items-center text-slate-400 bg-first pt-top'>
-      <h1 className='lg:text-6xl mb-10  font-allerta font-semibold text-center text-4xl'>Some Services I offer</h1>
+      <h1 className='lg:text-6xl mb-10  font-allerta font-semibold text-center text-3xl'>Some Services I offer</h1>
       <div ref={ref}>
         {data.map((item, i) => (
           <motion.div

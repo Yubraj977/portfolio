@@ -18,7 +18,9 @@ function App() {
   }
   return (
     <div className='lg:px-side  pt-top flex flex-col items-center bg-first'>
-      <h1 class="mb-4 text-4xl font-extrabold  font-allerta leading-none tracking-tight text-second md:text-5xl lg:text-6xl dark:text-fifth">My <span class="text-blue-600 dark:text-blue-500">Some</span> Projects.</h1>
+      <h1 class="mb-4 text-3xl font-extrabold  font-allerta leading-none tracking-tight text-second md:text-5xl lg:text-6xl dark:text-fifth opacity-80"> My 
+      <span class="text-blue-600 dark:text-blue-500 mx-3">Some</span>
+       Projects.</h1>
       <div className="choose flex gap-6 mb-8">
 
 
