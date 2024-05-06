@@ -4,7 +4,9 @@ import cvPdf from '/cv.pdf'
 import cvImg from '/cv.jpg'
 function Testimonials() {
   return (
-    <></>
+  <div className='h-screen'>
+dfd
+  </div>
     // <div className='flex flex-col items-center pt-top  bg-first'>
     //   <h1 className='text-4xl text-slate-400 font-allerta text-center'>No Testimonals Right now Let's watch my resume</h1>
     //   <div className='h-[44rem]   mt-6'>

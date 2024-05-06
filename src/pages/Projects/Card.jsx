@@ -1,6 +1,5 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-
 function Card({image,title,technology,link ,description}) {
   return (
     <>
