@@ -5,10 +5,9 @@ import About from '../pages/About/About'
 import Services from '../pages/Services/Services'
 import Testimonials from '../pages/Testimonials/Testimonials'
 import Projects from '../pages/Projects/Projects'
-import { FaReadme } from "react-icons/fa";
+
 import { DarkThemeToggle } from 'flowbite-react';
 function Nav() {
-    const [loading, setloading] = useState(true)
     const home = useRef(null)
     const about = useRef(null)
     const services = useRef(null)
@@ -17,10 +16,8 @@ function Nav() {
 
     useEffect(() => {
         const handleScroll = () => {
-
             clearTimeout(timeout);
             timeout = setTimeout(() => {
-
             }, 250);
         };
 
@@ -31,33 +28,17 @@ function Nav() {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
-
     const scrollToSection = (elementRef) => {
         window.scrollTo({
             top: elementRef.current.offsetTop,
             behavior: 'smooth'
         })
     }
-
     return (
-
-
         <div className='bg-first'>
-
-
-
-
-
-
-
             <nav className=" fixed w-full lg:flex  top-0  bg-neutral-900 z-50 font-allerta text-white  brder-[0.5px] border-gray-600 dark:shadow-custom  dark:bg-neutral-200 dark:text-neutral-900  ">
-
-
                 <div className='flex  lg:gap-40 items-between py-2  lg:px-4 md:px-4  gap-1'>
-
                     <div className='font-allerta  text-2xl pl-3'>YUBRAJ</div>
-
                     <div className="Middle  items-center gap-4   font-inter hidden  lg:flex md:flex z-50 text-base" >
                         <div onClick={() => scrollToSection(home)} className='font-allerta'>Home</div>
                         <div onClick={() => scrollToSection(about)} className='font-allerta'>About</div>
@@ -65,7 +46,6 @@ function Nav() {
                         <div onClick={() => scrollToSection(testmimonials)} className='font-allerta'>Testimonials</div>
                         <div onClick={() => scrollToSection(services)} className='font-allerta'>services</div>
                     </div>
-
                     <div className="right flex  lg:gap-28 gap-4 ">
                         <button className="text-white bg-[#24292F] rounded-lg text-sm  text-center inline-flex items-center px-3 ml-40">
 
@@ -77,12 +57,7 @@ function Nav() {
                                 Github
                             </a>
                         </button>
-
-                   
-
-
-                        <DarkThemeToggle className='border-0 hover:border-opacity-0 hover:bg-opacity-0 hover:text-opacity-100  lg:block hidden' />
-
+                      
                     </div>
 
 

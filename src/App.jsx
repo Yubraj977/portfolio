@@ -4,7 +4,6 @@ import ReactGA from "react-ga4";
 import AnimatedCursor from "react-animated-cursor"
 import { useEffect } from 'react';
 function App() {
-
 useEffect(() => {
   ReactGA.initialize("G-B025WMCV1E");
   ReactGA.send({ hitType: "pageview", page: window.location.pathname });
@@ -30,10 +29,7 @@ useEffect(() => {
     border: '3px solid #c9d5e1'
   }}
 />
-
       <Nav/>
-
-      
     </>
   )
 }

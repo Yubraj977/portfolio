@@ -27,7 +27,7 @@ function App() {
 
         <Button onClick={() => setdata(project)}  color='dark' >All</Button>
         <Button onClick={() => { filter('web') }}  color='dark' >Web</Button>
-        <Button onClick={() => { filter('fun') }}  color="dark" >Fun</Button>
+        <Button onClick={() => { filter('apps') }}  color="dark" >Mobile Apps</Button>
         <Button onClick={() => { filter('graphics') }} color="dark" >Gharaphics</Button>
         
 

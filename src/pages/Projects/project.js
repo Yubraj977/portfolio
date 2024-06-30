@@ -41,7 +41,7 @@ const project=[
         title:"four",
         technology:"Node react",
         link:"",
-        category:"graphics",
+        category:"apps",
         description:"the project of project hello hi random text jindabad tere leye "
     },
 
