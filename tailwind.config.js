@@ -30,7 +30,7 @@ export default {
        
       },
       colors:{
-        first:'rgb(25,25,25)',
+        first:'rgb(25,25,25)', //used
         second:'#FFFFFF',
         fourth:'#430d27',
         fifth:"rgb(119, 119, 119)"
