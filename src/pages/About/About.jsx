@@ -17,13 +17,8 @@ const container=useRef(null)
    
 
 
-    <div className='lg:h-screen  bg-cyan-500 '>
-      <div className=' h-full lg:flex p-20 hidden'>
-       Hello this is me and i am gonna be a full stack developer
-        <div className='h-40 w-40 bg-black text-white' ref={container}>
-          hello
-        </div>
-       </div>
+    <div className='lg:h-screen   '>
+     
     </div>
   )
 }

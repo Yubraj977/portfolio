@@ -1,6 +1,15 @@
 const project=[
     {
         id:0,
+        image:'/project/vedichoneyproduct.png',
+        title:"Vedichoneyproducts",
+        technology:"React, Tailwind Css, mongodb, firebase,chartjs",
+        link:"https://www.vedichoneyproduct.com/",
+        category:"web",
+        description:"ecommerce  Full stack website"
+    },
+    {
+        id:1,
         image:'/project/moviesite.png',
         title:"Movie Downloading Site",
         technology:"React, Tailwind Css, mongodb, firebase",
@@ -9,7 +18,7 @@ const project=[
         description:"Movie Downoading Site Developed with mern"
     },
     {
-        id:1,
+        id:2,
         image:'/project/todo.png',
         title:"To Do App",
         technology:"Html, Css, Javascript",
@@ -18,7 +27,7 @@ const project=[
         description:"this is the simple project created simply by using basic of web with the font poppins"
     },
     {
-        id:2,
+        id:3,
         image:'/project/jokes.png',
         title:"Random Jokes getter",
         technology:"Html, Css, Javascript, Fetch API",
@@ -26,24 +35,24 @@ const project=[
         category:"web",
         description:"I created this one while Leaning about fetching apis and public free api is used here"
     },
-    {
-        id:3,
-        image:'layer.svg',
-        title:"three",
-        technology:"Node react",
-        link:"",
-        category:"wefb",
-        description:"the project of project hello hi random text jindabad tere leye "
-    },
-    {
-        id:4,
-        image:'layer.svg',
-        title:"four",
-        technology:"Node react",
-        link:"",
-        category:"apps",
-        description:"the project of project hello hi random text jindabad tere leye "
-    },
+    // {
+    //     id:4,
+    //     image:'layer.svg',
+    //     title:"three",
+    //     technology:"Node react",
+    //     link:"",
+    //     category:"wefb",
+    //     description:"the project of project hello hi random text jindabad tere leye "
+    // },
+    // {
+    //     id:5,
+    //     image:'layer.svg',
+    //     title:"four",
+    //     technology:"Node react",
+    //     link:"",
+    //     category:"apps",
+    //     description:"the project of project hello hi random text jindabad tere leye "
+    // },
 
     
 ]
