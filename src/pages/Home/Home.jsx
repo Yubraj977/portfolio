@@ -10,7 +10,7 @@ const rightBox = 'items-center justify-center lg:justify-start lg:mt-0 mt-4 py-4
 const belowBox = '  bg-gradient-to-br from-black to-neutral-900 bg-opacity-1 w-1/2 px-8 flex flex-col justify-center py-4  hover:scale-110  transition-transform duration-300 ease-in hover:skew-x-6 '
 function Home() {
   return (
-    <div className="main   flex flex-col lg:h-screen   md:h-screen lg:flex-row lg: px-4 lg:pl-8    pt-16 lg:justify-between  bg-white " style={{backgroundImage: 'linear-gradient(to bottom, #000000, #080808, #0f0f0f, #151515, #191919)'}} >
+    <div className="main relative flex flex-col lg:h-screen   md:h-screen lg:flex-row lg: px-4 lg:pl-8    pt-16 lg:justify-between  bg-white " style={{backgroundImage: 'linear-gradient(to bottom, #000000, #080808, #0f0f0f, #151515, #191919)'}} >
 
       <div className='text-white absolute lg:flex flex-col top-1/2 transform -translate-y-1/2 font-64 font-bold hidden'>
         <div className='text-white flex gap-4 '>

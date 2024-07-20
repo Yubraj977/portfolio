@@ -5,7 +5,7 @@ import About from '../pages/About/About'
 import Services from '../pages/Services/Services'
 import Testimonials from '../pages/Testimonials/Testimonials'
 import Projects from '../pages/Projects/Projects'
-
+import Stack from '../Helpers/Stack'
 import { DarkThemeToggle } from 'flowbite-react';
 function Nav() {
     const home = useRef(null)
@@ -13,6 +13,7 @@ function Nav() {
     const services = useRef(null)
     const testmimonials = useRef(null)
     const projects = useRef(null)
+   
 
     useEffect(() => {
         const handleScroll = () => {
@@ -36,7 +37,7 @@ function Nav() {
     }
     return (
         <div className='bg-first'>
-            <nav className=" fixed w-full lg:flex  top-0  bg-neutral-900 z-50 font-allerta text-white  brder-[0.5px] border-gray-600 dark:shadow-custom  dark:bg-neutral-200 dark:text-neutral-900  ">
+            <nav className=" fixed w-full lg:flex  top-0  bg-neutral-900 z-50 font-allerta text-white  brder-[0.5px] border-gray-600 dark:shadow-custom  dark:bg-neutral-200 dark:text-neutral-900  py-3">
                 <div className='flex  lg:gap-40 items-between py-2  lg:px-4 md:px-4  gap-1'>
                     <div className='font-allerta  text-2xl pl-3'>YUBRAJ</div>
                     <div className="Middle  items-center gap-4   font-inter hidden  lg:flex md:flex z-50 text-base" >
@@ -57,7 +58,7 @@ function Nav() {
                                 Github
                             </a>
                         </button>
-                      
+
                     </div>
 
 
@@ -70,14 +71,15 @@ function Nav() {
 
 
 
-            <div  >
-                <div className='' ref={home} ><Home /></div>
-                <div className=' dark:bg-white' ref={about}><About /></div>
-                <div className='' ref={projects}><Projects /></div>
+            <div className='snap-y lg:snap-mandatory lg:h-screen overflow-y-scroll'>
+                <div className='snap-start' ref={home} ><Home /></div>
+                <div className='snap-start' ref={about}><About /></div>
+                <div className='snap-start' ref={projects}><Projects /></div>
                 {/* <div className=' ' ref={testmimonials}><Testimonials /></div> */}
-                <div className=' ' ref={services}><Services /></div>
+                <div className='snap-start' ref={services}><Services /></div>
 
             </div>
+
 
 
         </div>
