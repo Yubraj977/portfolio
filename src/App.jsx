@@ -15,7 +15,8 @@ useEffect(() => {
 
   return (
     <>
- <AnimatedCursor
+ {/* <AnimatedCursor
+  className="hidden lg:block"
   innerSize={8}
   outerSize={35}
   innerScale={1}
@@ -28,7 +29,7 @@ useEffect(() => {
   outerStyle={{
     border: '3px solid #c9d5e1'
   }}
-/>
+/> */}
       <Nav/>
     </>
   )

@@ -27,6 +27,7 @@ export default {
         whisper:["Whisper"],
         pacifico:["Pacifico"],
         montserrat:["Montserrat"],
+        babe:["Bebas Neue"],
        
       },
       colors:{
